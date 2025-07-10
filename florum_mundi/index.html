@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<title>Flower</title>
+  <style>
+    body {
+      font-family: Arial;
+      background-color: pink;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      margin-bottom: 30px;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .flower-card {
+      width: 200px;
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      padding: 10px;
+      background-color: #fff;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .flower-card img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+
+    .flower-name {
+      margin: 10px 0;
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    .buy-button {
+      display: inline-block;
+      padding: 10px 15px;
+      background-color: #28a745;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 16px;
+    }
+
+    .buy-button:hover {
+      background-color: #218838;
+    }
+	
+	.footer-text {
+	margin-top: 40px;
+	padding: 20px;
+	font-size: 18px;
+	color: purples;
+	font-weight: bold;
+	}
+  </style>
+</head>
+<body>
+
+  <h1>Florum Mundi</h1>
+  <h2>Мої квіти на продаж</h2>
+
+  <div class="gallery">
+
+    <!-- Квітка 1 -->
+    <div class="flower-card">
+      <img src="img/flower1.jpg" alt="Квітка 1">
+      <div class="flower-name">Jagershus Borre - 70грн</div>
+      <a class="buy-button" href="tel:+380960335329">КУПИТИ</a>
+    </div>
+
+    <!-- Квітка 2 -->
+    <div class="flower-card">
+      <img src="img/flower2.jpg" alt="Квітка 2">
+      <div class="flower-name">Scarlett Rambler - 70грн</div>
+      <a class="buy-button" href="tel:+380960335329">КУПИТИ</a>
+    </div>
+
+    <!-- Квітка 3 -->
+    <div class="flower-card">
+      <img src="img/flower3.jpg" alt="Квітка 3">
+      <div class="flower-name">Norland Red - 100грн</div>
+      <a class="buy-button" href="tel:+380960335329">КУПИТИ</a>
+    </div>
+
+    <!-- Квітка 4 -->
+    <div class="flower-card">
+      <img src="img/flower4.jpg" alt="Квітка 4">
+      <div class="flower-name">Шовк Лагуна - 70грн</div>
+      <a class="buy-button" href="tel:+380960335329">КУПИТИ</a>
+    </div>
+
+    <!-- Квітка 5 -->
+    <div class="flower-card">
+      <img src="img/flower5.jpg" alt="Квітка 5">
+      <div class="flower-name">Квітка 5</div>
+      <a class="buy-button" href="tel:+380960335329">КУПИТИ</a>
+    </div>
+
+    <!-- Квітка 6 -->
+    <div class="flower-card">
+      <img src="img/flower6.jpg" alt="Квітка 6">
+      <div class="flower-name">Квітка 6</div>
+      <a class="buy-button" href="tel:+380960335329">КУПИТИ</a>
+    </div>
+
+  </div>
+  <div class="footer-text">
+	<p>Всі квіти є в наявності.<br> Для замовлень можете зателефонувати, або пишіть у Viber!<br>
+	Контактні дані:<br>
+	Tel: (+380)960335329<br>
+	Instagram: @_Florum_Mundi_<br>
+	Місто Умань<br>
+	</p>
+	</div>
+</body>
+</html>
